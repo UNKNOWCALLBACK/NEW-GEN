@@ -187,6 +187,10 @@ AddEventHandler('esx_identity:setIdentity', function(data, myIdentifiers)
 			TriggerClientEvent('esx_identity:identityCheck', myIdentifiers.playerid, true)
 			TriggerEvent('esx_identity:characterUpdated', myIdentifiers.playerid, data)
 		else
+			if usenc_notify == true then 
+			end
+			if usemythic_notify == true then
+			end
 			xPlayer.showNotification('failed to set your character, try again later or contact the server admin!')
 		end
 	end)
