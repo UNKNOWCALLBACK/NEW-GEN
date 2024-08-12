@@ -1,6 +1,5 @@
-ESX = nil
+ESX = Config.BaseServerServerx()
 local NewPlayer = {}
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 
 
