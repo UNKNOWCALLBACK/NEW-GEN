@@ -17,10 +17,10 @@ if token == config.tokentogetitem then
 			end
 		end
 	else
-        Conifg.cheatdetech(_source,xPlayer,token)
+        Config.cheatdetech(_source,xPlayer,token)
     end
 else
-    Conifg.cheatdetech(_source,xPlayer,token)
+    Config.cheatdetech(_source,xPlayer,token)
 end
 end)
 
